@@ -1,0 +1,77 @@
+.appointment-form {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.status-pendiente {
+  background-color: rgba(108, 117, 125, 0.1);
+}
+
+.status-confirmada {
+  background-color: rgba(13, 110, 253, 0.1);
+}
+
+.status-completada {
+  background-color: rgba(25, 135, 84, 0.1);
+}
+
+.status-cancelada {
+  background-color: rgba(220, 53, 69, 0.1);
+}
+
+.badge.pendiente {
+  background-color: #6c757d;
+}
+
+.badge.confirmada {
+  background-color: #0d6efd;
+}
+
+.badge.completada {
+  background-color: #198754;
+}
+
+.badge.cancelada {
+  background-color: #dc3545;
+}
+
+.loading-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.loading-spinner {
+  width: 3rem;
+  height: 3rem;
+}
+
+.min-vh-100 {
+  min-height: 100vh;
+}
+
+body.dark {
+  background-color: #212529;
+  color: #f8f9fa;
+}
+
+body.dark .card,
+body.dark .modal-content,
+body.dark .list-group-item,
+body.dark .form-control,
+body.dark .btn-outline-secondary {
+  background-color: #343a40;
+  color: #f8f9fa;
+  border-color: #495057;
+}
+
+body.dark .bg-light {
+  background-color: #343a40 !important;
+  color: #f8f9fa;
+}
+
+body.dark .text-muted {
+  color: #adb5bd !important;
+}
